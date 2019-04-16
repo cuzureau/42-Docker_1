@@ -1,0 +1,1 @@
+docker service logs -f $(docker service ls | grep engineering-bay | cut -d ' ' -f1)
